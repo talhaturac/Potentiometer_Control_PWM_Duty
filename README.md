@@ -20,6 +20,8 @@
 * [Usage](#usage)
 * [Contact and Feedback](#contact-and-feedback)
 
+<br/>
+
 ## About The Project
 
 <p align="center">
@@ -59,7 +61,14 @@ It was built using the C programming language, via Code Composer Studio IDE, wit
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+First, an empty CCS project file is opened. Required adjustments and configurations are made. After selecting the target path, i.e. the target device and connection type, the software is started. The reason why I do not talk about these parts in detail is that they are available on the internet and TI's own resources. 
+
+The software is started by including the libraries on the main.c file.
+
+'''
+#include "driverlib.h"
+#include "device.h"
+'''
 
 <br/>
 
