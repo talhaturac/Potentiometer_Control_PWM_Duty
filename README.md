@@ -17,7 +17,7 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Usage](#usage)
+* [Description](#description)
 * [Contact and Feedback](#contact-and-feedback)
 
 <br/>
@@ -59,15 +59,73 @@ It was built using the C programming language, via Code Composer Studio IDE, wit
 
 <br/>
 
-## Usage
+## Description
 
-First, an empty CCS project file is opened. Required adjustments and configurations are made. After selecting the target path, i.e. the target device and connection type, the software is started. The reason why I do not talk about these parts in detail is that they are available on the internet and TI's own resources. 
+Firstly, an empty CCS project file is opened. Required adjustments and configurations are made. After selecting the target path, i.e. the target device and connection type, the software is started. The reason why I do not share about these parts in detail is that they are available on the internet and TI's own resources. 
 
 The software is started by including the libraries on the main.c file.
-
+In this section, the included libraries are "driverlib.h" and "device.h". These files contain the drivers for the microcontroller and define the device-specific constants.
 ```
 #include "driverlib.h"
 #include "device.h"
+```
+
+The prototypes of the used functions are defined in this section. This enhances the readability and maintenance of the code.
+```
+// Function Prototypes
+void    ADC_init();
+void    ASYSCTL_init();
+void    INTERRUPT_init();
+void    PinMux_init();
+void    TriggerEPWM_init();
+void    EPWM2_init();
+void    change_duty_ratio();
+extern __interrupt void adcA1ISR(void);
+```
+
+This section contains the definitions of global variables used in the code, such as ADC results, duty ratio, and other variables.
+```
+// GLOBALS
+uint16_t   adcAResult0;
+float32_t  dutyRatio;
+float32_t  d_value = 0;
+```
+
+This function contains the necessary steps to initialize EPWM2. It configures GPIO pins, resets PWM2 peripheral, and sets up synchronization.
+```
+void EPWM2_init()
+```
+
+This function is used to change the PWM duty ratio. It calculates the duty cycle of the PWM signal based on the ADC value and configures the PWM signal.
+```
+void change_duty_ratio(void)
+```
+
+This function configures EPWM1 as a trigger for ADC. It sets up timing and frequency parameters.
+```
+void TriggerEPWM_init(void)
+```
+
+This functions initializes and configures the ADC. It sets ADC sampling triggers, interrupts, and other settings.
+```
+__interrupt void adcA1ISR(void)
+void ADC_init()
+void INTERRUPT_init()
+```
+
+These functions initialize ASysCtl and interrupt settings.
+```
+void ASYSCTL_init()
+```
+
+This function sets up the configuration of analog pins.
+```
+void PinMux_init()
+```
+
+The main function initializes the device and performs necessary settings. It calls a function in an infinite loop to change the PWM duty cycle based on the ADC reading.
+```
+void main(void)
 ```
 
 <br/>
