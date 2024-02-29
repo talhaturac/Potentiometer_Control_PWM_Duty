@@ -6,11 +6,11 @@
 
   <h1 align="center">Building Embedded Software Using the LAUNCHXL-F280025C Development Kit</h1>
 
-  <p align="center">
+  <h2 align="center">
     This project is developed to control the duty cycle of PWM signals with a potentiometer.
     <br/>
     <br/>
-  </p>
+  </h2>
 </p>
 
 
@@ -36,7 +36,7 @@ Why are we here:
 
 You can experiment by customizing the project code to your own TI development board. Or you can use the information shared here to create your own customizations that use the ADC unit and ePWM unit. The actual code is in the main.c file. 
 
-<br>
+<br/>
 
 ## Built With
 
