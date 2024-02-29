@@ -4,7 +4,7 @@
     <img src="https://www.ti.com/diagrams/ccstudio_ccs_256.jpg" alt="Logo" width="100" height="100">
   </a>
 
-  <h2 align="center">Building Embedded Software Using the LAUNCHXL-F280025C Development Kit</h2>
+  <h1 align="center">Building Embedded Software Using the LAUNCHXL-F280025C Development Kit</h1>
 
   <p align="center">
     This project is developed to control the duty cycle of PWM signals with a potentiometer.
