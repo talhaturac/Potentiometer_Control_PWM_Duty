@@ -6,12 +6,11 @@
 
   <h1 align="center">Building Embedded Software Using the LAUNCHXL-F280025C Development Kit</h1>
 
-  <h2 align="center">
+  <h3 align="center">
     This project is developed to control the duty cycle of PWM signals with a potentiometer.
-  <br/>  
-  </h2>
+  <br/> 
     <br/>
-    <br/>
+  </h3>
 
 
 ## Table Of Contents
