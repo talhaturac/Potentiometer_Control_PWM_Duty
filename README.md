@@ -8,11 +8,9 @@
 
   <h2 align="center">
     This project is developed to control the duty cycle of PWM signals with a potentiometer.
+    </h2>
     <br/>
     <br/>
-    <br/>
-    <br/>
-  </h2>
 <br/>
 
 
