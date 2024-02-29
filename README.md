@@ -23,6 +23,10 @@
 ## About The Project
 
 ![Screen Shot](images/pict1_small.jpg)
+<p align="center">
+  <a href="https://github.com/talhaturac/Potentiometer_Control_PWM_Duty">
+    <img src="images/pict1_small.jpg" width="600" height="700">
+  </a>
 
 I am actively working on development kits from Texas Instruments and developing embedded software. In this post here, I wanted to share one of the projects I have done so that you can benefit from it. Enjoy!
 
