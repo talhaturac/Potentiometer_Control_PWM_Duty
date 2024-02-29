@@ -131,6 +131,8 @@ void main(void)
 
 In order to test the results, a 330 ohm resistor and an LED lamp are connected in series between the GPIO2 pin and the 3.3V pin of the development board. The red end of the potentiometer is connected to 3.3V, the black end to the GND pin and the white pin to the A0/C15 pin. The connection and pinout reference of the development board can be found with [F280025C LaunchPad™ quick quide resource.](https://www.ti.com/lit/ug/spruiw5a/spruiw5a.pdf?ts=1709207015516&ref_url=https%253A%252F%252Fwww.google.com%252F)
 <br/>
+<br/>
+
 Let's turn the potentiometer and see what happens!
 
 
