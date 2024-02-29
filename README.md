@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/talhaturac/Potentiometer_Control_PWM_Duty">
-    <img src="https://www.ti.com/diagrams/ccstudio_ccs_256.jpg" alt="Logo" width="100" height="100">
+    <img src="https://www.ti.com/diagrams/ccstudio_ccs_256.jpg" alt="Logo" width="150" height="150">
   </a>
 
   <h1 align="center">Building Embedded Software Using the LAUNCHXL-F280025C Development Kit</h1>
@@ -36,7 +36,7 @@ Why are we here:
 
 You can experiment by customizing the project code to your own TI development board. Or you can use the information shared here to create your own customizations that use the ADC unit and ePWM unit. The actual code is in the main.c file. 
 
-<br/>
+<br>
 
 ## Built With
 
