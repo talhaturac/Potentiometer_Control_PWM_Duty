@@ -22,7 +22,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](images/pict1.jpeg)
 
 I am actively working on development kits from Texas Instruments and developing embedded software. In this post here, I wanted to share one of the projects I have done so that you can benefit from it. Enjoy!
 
@@ -35,6 +35,8 @@ Why are we here:
 
 You can experiment by customizing the project code to your own TI development board. Or you can use the information shared here to create your own customizations that use the ADC unit and ePWM unit. The actual code is in the main.c file. 
 
+<br/>
+![Screen Shot](images/pict2.jpeg)
 <br/>
 
 ## Built With
