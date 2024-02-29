@@ -22,8 +22,7 @@
 
 ## About The Project
 
-![Screen Shot](images/pict1.jpeg)
-<img src="[https://github.com/talhaturac/Potentiometer_Control_PWM_Duty/blob/main/images/pict1.jpeg]" width="250" height="150">
+![Screen Shot](images/pict1_small.jpeg)
 
 I am actively working on development kits from Texas Instruments and developing embedded software. In this post here, I wanted to share one of the projects I have done so that you can benefit from it. Enjoy!
 
@@ -37,7 +36,7 @@ Why are we here:
 You can experiment by customizing the project code to your own TI development board. Or you can use the information shared here to create your own customizations that use the ADC unit and ePWM unit. The actual code is in the main.c file. 
 
 
-![Screen Shot](images/pict2.jpeg)
+![Screen Shot](images/pict2_small.jpeg)
 
 <br/>
 
