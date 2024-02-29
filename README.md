@@ -65,10 +65,10 @@ First, an empty CCS project file is opened. Required adjustments and configurati
 
 The software is started by including the libraries on the main.c file.
 
-'''
+```
 #include "driverlib.h"
 #include "device.h"
-'''
+```
 
 <br/>
 
