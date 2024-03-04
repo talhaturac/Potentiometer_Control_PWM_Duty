@@ -8,6 +8,7 @@
 
   <h3 align="center">
     This project is developed to control the duty cycle of PWM signals with a potentiometer.
+    <br/> 
     (using the EPWM_configureSignal() function)
     <br/> 
     <br/>
