@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/talhaturac/Potentiometer_Control_PWM_Duty">
+  <a href="https://www.ti.com/design-development/embedded-development.html">
     <img src="https://www.ti.com/diagrams/ccstudio_ccs_256.jpg" alt="Logo" width="150" height="150">
   </a>
 
